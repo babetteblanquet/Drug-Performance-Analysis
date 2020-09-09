@@ -1,4 +1,4 @@
-# Matplotlib Analysis part of Data Analysis Bootcamp at Monash University.#
+# Analysis on Drug performance.#
 
 ## Project overview:
 
@@ -11,14 +11,21 @@ Here are the steps we undertook to run the analysis. You will be able to read th
   
 - Checked if there were any duplicates and removed them 
 - Generated a summary statistics table showing the mean, median, variance, standard deviation, and SEM of the tumor volume for each drug regimen.
-- Generated a bar plot using both Pandas DataFrame.plot() and Matplotlib's pyploy (due to Uni requirements) showing the total mice for each treatment regimen
+- Generated a bar plot using both Pandas DataFrame.plot() and Matplotlib's pyplot (due to Uni requirements) showing the total mice for each treatment regimen
+![bar_graph](images/img1.png)
+
 - Generated a pie plot using both Pandas's `DataFrame.plot()` and Matplotlib's `pyplot`(due to Uni requirements) that shows the distribution of female or male mice in the study.
+![bar_graph](images/img2.png)
+
 - Calculated the final tumor volume of each mouse across four of the most promising treatment regimens: Capomulin, Ramicane, Infubinol, and Ceftamin. 
 - Calculated the quartiles and IQR and quantitatively determine if there are any potential outliers across all four treatment regimens.
 - Generated a box and whisker plot of the final tumor volume for all four treatment regimens and highlight any potential outliers in the plot by changing their color and style.
+![bar_graph](images/img3.png)
+
 - Selected a mouse that was treated with Capomulin and generate a line plot of time point versus tumor volume for that mouse.
 - Generated a scatter plot of mouse weight versus average tumor volume for the Capomulin treatment regimen.
-- Calculated the correlation coefficient and linear regression model between mouse weight and average tumor volume for the Capomulin treatment. Plot the linear regression model on top of the previous scatter plot.
+- Calculated the correlation coefficient and linear regression model between mouse weight and average tumor volume for the Capomulin treatment.
+![bar_graph](images/img4.png)
 
 **Conclusion:**
 -The data: The data for Capomulin and Ramicane treatment is normally distributed. Also the data for these two treatments has the least variability with standard deviations and standard errors being the smallest compare to the other treatments.
